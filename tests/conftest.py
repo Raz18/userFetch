@@ -1,10 +1,5 @@
-import os
-import sys
 import pytest
-# Add the directory containing api_user_fetcher.py to the PYTHONPATH
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from api_user_fetcher import UserFetcher
+from ..api_user_fetcher import UserFetcher
 
 
 @pytest.fixture(scope="module")
