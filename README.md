@@ -75,17 +75,17 @@ source venv/bin/activate
 ```
 3. **Install the required packages:**
 
-   ```sh
-   pip install -r requirements.txt
-   ```
+```sh
+pip install -r requirements.txt
+```
 4. **Run the script directly**:
-    ```sh
-    python api_task_cyclops.py
-    ```
+```sh
+python api_task_cyclops.py
+```
 5. **Run the tests:**
-   ```sh
-   pytest tests
-   ```
+```sh
+pytest tests
+```
 
 ## Tests Explanation
 
