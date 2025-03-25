@@ -63,16 +63,26 @@ UserFetcher Project
 ```
 
 ## Usage
-1. **Install the required packages:**
+1. **Clone the Repository**
+```bash
+git clone https://github.com/Raz18/wolt_automation.git 
+cd userFetch
+```
+2. **Create and activate a virtual environment**
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+3. **Install the required packages:**
 
    ```sh
    pip install -r requirements.txt
    ```
-2. **Run the script**:
+4. **Run the script directly**:
     ```sh
     python api_task_cyclops.py
     ```
-3. **Run the tests:**
+5. **Run the tests:**
    ```sh
    pytest tests
    ```
