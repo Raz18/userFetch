@@ -1,5 +1,5 @@
 import requests
-from utils.logger import setup_logger
+from userFetch.utils.logger import setup_logger
 
 
 class UserFetcher:
