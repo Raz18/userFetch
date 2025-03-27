@@ -25,7 +25,7 @@ When you run the script `api_task_cyclops.py`, it will:
 
 ### Implementation
 
-The UserFetcher class is implemented in `api_task_cyclops.py` and includes the following methods:
+The UserFetcher class is implemented in `api_user_fetcher` and includes the following methods:
 
 `__init__(self, url)`: Initializes the UserFetcher instance with the given URL and sets up an empty list for users and a logger.
 
