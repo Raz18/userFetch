@@ -80,7 +80,7 @@ pip install -r requirements.txt
 ```
 4. **Run the script directly**:
 ```sh
-python api_task_cyclops.py
+python api_user_fetcher.py
 ```
 5. **Run the tests:**
 ```sh
