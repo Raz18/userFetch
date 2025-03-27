@@ -52,7 +52,7 @@ This output indicates that the script successfully fetched and processed user da
 ## Project Structure
 ```sh
 UserFetcher Project
-├── api_task_cyclops.py         # Main script implemented by the UserFetcher class
+├── api_user_fetcher.py         # Main script implemented by the UserFetcher class
 ├── tests
 │   ├── conftest.py             # Pytest fixtures for a centralized setup
 │   └── test_users_api.py       # Test cases for UserFetcher
